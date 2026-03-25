@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+outputs/
+*.mp4
+*.log
+*.bak
+*.qlpreview/
+node_modules/
+

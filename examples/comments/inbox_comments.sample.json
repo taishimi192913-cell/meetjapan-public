@@ -1,0 +1,16 @@
+[
+  {
+    "platform": "instagram",
+    "comment_id": "sample-001",
+    "user": "travel_fan",
+    "text": "Where can I find this in Tokyo?",
+    "video_stem": "weird_japan_toilet_en_20260313_093205"
+  },
+  {
+    "platform": "tiktok",
+    "comment_id": "sample-002",
+    "user": "japantrip2026",
+    "text": "Can you do a part 2 with more spots?",
+    "video_stem": "vending_machine_mystery_en_20260312_134714"
+  }
+]

@@ -1,0 +1,8 @@
+date,idea_id,platform,goal,hook_variant,status
+2026-03-13,konbini_asmr_series,instagram,save_rate_a,hook_a,planned
+2026-03-14,vending_machine_mystery,instagram,share_rate_a,hook_a,planned
+2026-03-15,depachika_500yen_challenge,instagram,completion_rate,hook_a,planned
+2026-03-16,station_bento_speedrun,tiktok,watch_time,hook_a,planned
+2026-03-17,drugstore_snack_ranking,youtube,ctr_from_shorts,hook_a,planned
+2026-03-12,vending_machine_mystery,instagram,save_share_rate,hook_a,generated
+2026-03-12,weird_japan_toilet,tiktok,3s_hold_rate,hook_a,generated

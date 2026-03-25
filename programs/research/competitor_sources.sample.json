@@ -1,0 +1,34 @@
+{
+  "youtube_channels": [
+    {
+      "name": "Paolo fromTOKYO",
+      "handle_url": "https://www.youtube.com/@PaolofromTOKYO",
+      "channel_id": "UCk8Fs9fhRAZ1KAmbXcGkWjg",
+      "topic": "Japan daily life, travel, food"
+    },
+    {
+      "name": "Abroad in Japan",
+      "handle_url": "https://www.youtube.com/@AbroadinJapan",
+      "channel_id": "UCuJn_2HhHRqnu3xiIukNx1Q",
+      "topic": "Japan travel, culture, humor"
+    },
+    {
+      "name": "ONLY in JAPAN",
+      "handle_url": "https://www.youtube.com/@ONLYinJAPANGO",
+      "channel_id": "UCDJ_LbyfNiutATmIIJ48HCQ",
+      "topic": "Japan places, travel, culture"
+    }
+  ],
+  "manual_watchlist": [
+    {
+      "platform": "instagram",
+      "label": "Japan Travel keyword watch",
+      "url": "https://www.instagram.com/explore/search/keyword/?q=japan%20travel"
+    },
+    {
+      "platform": "tiktok",
+      "label": "Japan travel keyword watch",
+      "url": "https://www.tiktok.com/search?q=japan%20travel"
+    }
+  ]
+}

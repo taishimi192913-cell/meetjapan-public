@@ -1,0 +1,611 @@
+version: 1
+project: MeetJapan Inbound Shorts
+owner: sample_owner
+last_updated: 2026-03-12
+
+selection_rule:
+  priority_order:
+    - save_intent
+    - share_intent
+    - 3s_hold_rate
+    - completion_rate
+
+default_host_profile: handsome Korean-idol-style male host with a private off-duty vibe
+
+ideas:
+  - id: konbini_asmr_series
+    category: convenience_store
+    status: active
+    audience: inbound_travelers_en
+    format: "8s vertical"
+    hook: "Visual curiosity first: unusual konbini lineup."
+    core_value: fast useful food hack
+    asmr_focus:
+      - crispy chicken crunch
+      - plastic bag on table
+      - package rustle
+    cta: "Save this for your Japan trip."
+
+  - id: vending_machine_mystery
+    category: city_experience
+    status: active
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Visual curiosity first: glowing mystery vending drink."
+    core_value: surprising local discovery
+    asmr_focus:
+      - coin insert clink
+      - button press click
+      - can opening fizz
+    cta: "Send to someone visiting Japan."
+
+  - id: station_bento_speedrun
+    category: transport_food
+    status: ready
+    audience: rail_travelers
+    format: "8s vertical"
+    hook: "30 seconds to pick the right station bento."
+    core_value: reduce decision friction
+    asmr_focus:
+      - bento lid open
+      - chopstick split
+      - rice bite
+    cta: "Share with your travel partner."
+
+  - id: drugstore_snack_ranking
+    category: snack_culture
+    status: ready
+    audience: snack_lovers
+    format: "8s vertical"
+    hook: "Top 3 Japanese snacks under $3."
+    core_value: low-cost discovery
+    asmr_focus:
+      - wrapper crackle
+      - crunchy bite
+      - chocolate snap
+    cta: "Comment your favorite snack."
+
+  - id: weird_japan_toilet
+    category: weird_japan
+    status: active
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Visual curiosity first: futuristic Japanese toilet."
+    core_value: surprising cultural technology
+    asmr_focus:
+      - lid movement
+      - button click
+      - quiet futuristic ambience
+    cta: "Save this for Japan."
+
+  - id: tax_free_shopping_rules
+    category: shopping_hack
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Tax-free in Japan is easier than you think."
+    core_value: save money with less confusion
+    asmr_focus:
+      - receipt print
+      - passport flip
+      - shopping bag rustle
+    cta: "Save this shopping tip."
+
+  - id: tattoo_friendly_onsen_flow
+    category: wellness_culture
+    status: ready
+    audience: anxious_first_timers
+    format: "8s vertical"
+    hook: "Yes, some onsen are tattoo-friendly."
+    core_value: reduce onsen anxiety
+    asmr_focus:
+      - noren curtain move
+      - towel fold
+      - bath ambience
+    cta: "Send this to your travel buddy."
+
+  - id: mobile_suica_faststart
+    category: transport_hack
+    status: ready
+    audience: mobile_native_travelers
+    format: "8s vertical"
+    hook: "This is the fastest way to ride trains in Japan."
+    core_value: instant arrival confidence
+    asmr_focus:
+      - phone tap
+      - station gate beep
+      - train arrival chime
+    cta: "Save this before landing."
+
+  - id: hidden_nightlife_local_bar
+    category: nightlife
+    status: ready
+    audience: nightlife_travelers
+    format: "8s vertical"
+    hook: "Japan after dark is not what tourists expect."
+    core_value: show a hidden local side of Japan
+    asmr_focus:
+      - lantern sway
+      - bar door slide
+      - ice in glass
+    cta: "Share this night spot."
+
+  - id: no_trash_can_clean_streets
+    category: culture_surprise
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Japan has fewer trash cans than you think."
+    core_value: explain a famous Japan surprise fast
+    asmr_focus:
+      - vending machine hum
+      - plastic bottle cap click
+      - quiet street ambience
+    cta: "Save this before Japan."
+
+  - id: express_train_skip_trap
+    category: transport_hack
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "This train might skip your stop."
+    core_value: prevent a very common travel mistake
+    asmr_focus:
+      - platform chime
+      - train door close
+      - route announcement ambience
+    cta: "Save this train tip."
+
+  - id: tokyo_station_3d_maze
+    category: transport_hack
+    status: ready
+    audience: overwhelmed_city_travelers
+    format: "8s vertical"
+    hook: "In Tokyo Station, your friend can be three floors away."
+    core_value: reduce station navigation anxiety
+    asmr_focus:
+      - escalator hum
+      - footsteps
+      - station gate beep
+    cta: "Send this to your Japan buddy."
+
+  - id: konbini_atm_rescue
+    category: payment_hack
+    status: ready
+    audience: anxious_first_timers
+    format: "8s vertical"
+    hook: "This ATM can save your Japan trip."
+    core_value: solve cash and card anxiety quickly
+    asmr_focus:
+      - atm button press
+      - cash dispense
+      - receipt print
+    cta: "Save this money tip."
+
+  - id: donki_shopping_survival
+    category: shopping_guide
+    status: ready
+    audience: first_time_japan_travelers
+    format: "8s vertical"
+    hook: "Don Quijote is exciting, but first-timers get overwhelmed fast."
+    core_value: turn famous shopping chaos into a practical saveable tip
+    asmr_focus:
+      - cart wheel
+      - shelf rustle
+      - checkout beep
+    cta: "Save this Donki tip."
+
+  - id: quiet_rush_hour_tokyo
+    category: city_surprise
+    status: ready
+    audience: urban_culture_watchers
+    format: "8s vertical"
+    hook: "Tokyo rush hour is quieter than you expect."
+    core_value: visually surprising city contrast
+    asmr_focus:
+      - train arrival
+      - soft footsteps
+      - low traffic ambience
+    cta: "Share this Tokyo surprise."
+
+  - id: next_station_shibuya_series
+    category: city_arrival
+    status: ready
+    audience: aesthetic_city_travelers
+    format: "8s vertical"
+    hook: "The next station is Shibuya."
+    core_value: iconic city arrival with premium travel aesthetic
+    asmr_focus:
+      - train rail glide
+      - soft station announcement
+      - door open chime
+
+  - id: japan_hair_salon_destination
+    category: services_worth_traveling_for
+    status: ready
+    audience: beauty_conscious_female_travelers
+    format: "10s vertical"
+    hook: "Women travel to Japan for hair color like this."
+    core_value: destination-level premium hair color service
+    asmr_focus:
+      - foil rustle
+      - brush sweep
+      - dryer finish
+    cta: "Save this hair color idea."
+
+  - id: japanese_head_spa_feels_like
+    category: services_worth_traveling_for
+    status: ready
+    audience: wellness_travelers
+    format: "10s vertical"
+    hook: "This is just a shampoo in Japan?"
+    core_value: premium relaxation in an everyday service
+    asmr_focus:
+      - water pour
+      - scalp massage
+      - soft steam ambience
+    cta: "Save this spa idea."
+
+  - id: glasses_in_japan_easy
+    category: services_worth_traveling_for
+    status: ready
+    audience: practical_style_travelers
+    format: "10s vertical"
+    hook: "You can get glasses this easily in Japan?"
+    core_value: speed and design with less friction
+    asmr_focus:
+      - frame case open
+      - eye test beep
+      - receipt print
+    cta: "Save this before Japan."
+
+  - id: japanese_nail_lash_services
+    category: services_worth_traveling_for
+    status: ready
+    audience: beauty_travelers
+    format: "10s vertical"
+    hook: "This detail is why people book in Japan."
+    core_value: precision beauty service with high trust
+    asmr_focus:
+      - tool click
+      - brush sweep
+      - salon ambience
+    cta: "Share this beauty tip."
+
+  - id: sento_first_time_visitors
+    category: services_worth_traveling_for
+    status: ready
+    audience: culture_curious_travelers
+    format: "10s vertical"
+    hook: "This is real-life Japan for almost no money."
+    core_value: neighborhood culture through everyday bathing
+    asmr_focus:
+      - locker key clink
+      - bath water ripple
+      - noren curtain move
+    cta: "Save this local ritual."
+
+  - id: japanese_sauna_feels_different
+    category: services_worth_traveling_for
+    status: ready
+    audience: wellness_travelers
+    format: "10s vertical"
+    hook: "Sauna in Japan feels different."
+    core_value: ritual and atmosphere beyond the heat
+    asmr_focus:
+      - sauna door close
+      - water drip
+      - calm ventilation hum
+    cta: "Save this sauna stop."
+
+  - id: massage_in_japan_difference
+    category: services_worth_traveling_for
+    status: ready
+    audience: tired_city_travelers
+    format: "10s vertical"
+    hook: "Why does massage in Japan feel this calm?"
+    core_value: trust and atmosphere in body care
+    asmr_focus:
+      - towel fold
+      - hand press
+      - quiet room tone
+    cta: "Save this recovery tip."
+
+  - id: konbini_services_superpowers
+    category: services_worth_traveling_for
+    status: ready
+    audience: first_time_japan_visitors
+    format: "10s vertical"
+    hook: "This one store can save your whole Japan trip."
+    core_value: overlooked convenience as travel infrastructure
+    asmr_focus:
+      - atm beep
+      - printer hum
+      - parcel sticker peel
+    cta: "Save this konbini trick."
+
+  - id: luggage_forwarding_cheat_code
+    category: services_worth_traveling_for
+    status: ready
+    audience: first_time_japan_visitors
+    format: "10s vertical"
+    hook: "This feels like a cheat code for Japan travel."
+    core_value: remove transit stress with one service
+    asmr_focus:
+      - suitcase wheel stop
+      - paper tag peel
+      - counter stamp
+    cta: "Save this luggage hack."
+
+  - id: drugstores_more_useful_than_expected
+    category: services_worth_traveling_for
+    status: ready
+    audience: practical_travelers
+    format: "10s vertical"
+    hook: "Japanese drugstores are more useful than you think."
+    core_value: everyday store that solves travel problems fast
+    asmr_focus:
+      - shelf rustle
+      - basket set down
+      - checkout beep
+    cta: "Save this drugstore tip."
+
+  - id: airport_limo_bus_easy
+    category: arrival_hack
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "This airport bus can save your first hour in Japan."
+    core_value: easier airport-to-hotel transfer with luggage
+    asmr_focus:
+      - bus door hiss
+      - luggage compartment thump
+      - seat fabric rustle
+    cta: "Save this airport tip."
+
+  - id: checkin_gap_survival
+    category: arrival_hack
+    status: ready
+    audience: tired_arrivals
+    format: "8s vertical"
+    hook: "Your hotel room might not be ready yet."
+    core_value: solve the awkward check-in time gap
+    asmr_focus:
+      - suitcase handle click
+      - locker door close
+      - cafe cup set down
+    cta: "Save this arrival fix."
+
+  - id: women_only_carriage_tip
+    category: safety_tip
+    status: ready
+    audience: solo_female_travelers
+    format: "8s vertical"
+    hook: "This train car can make late-night travel feel easier."
+    core_value: small safety comfort for solo women
+    asmr_focus:
+      - platform chime
+      - train door close
+      - quiet carriage ambience
+    cta: "Send this to a friend traveling solo."
+
+  - id: temple_photo_rules
+    category: etiquette
+    status: ready
+    audience: culture_curious_travelers
+    format: "8s vertical"
+    hook: "Not every beautiful place in Japan wants your camera."
+    core_value: prevent awkward photo mistakes at temples and shrines
+    asmr_focus:
+      - camera strap move
+      - gravel footsteps
+      - wooden sign creak
+    cta: "Save this etiquette tip."
+
+  - id: shoes_off_when_in_doubt
+    category: etiquette
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "When in doubt in Japan, check your shoes first."
+    core_value: reduce small social mistakes indoors
+    asmr_focus:
+      - shoe slip off
+      - floor creak
+      - slipper slide
+    cta: "Save this before Japan."
+
+  - id: jetlag_breakfast_rescue
+    category: food_hack
+    status: ready
+    audience: jetlagged_travelers
+    format: "8s vertical"
+    hook: "Awake at 5 a.m. in Japan? Eat this."
+    core_value: easy first-morning breakfast plan
+    asmr_focus:
+      - soup lid peel
+      - rice ball wrapper pull
+      - coffee cup set down
+    cta: "Save this breakfast idea."
+
+  - id: japan_last_order_early
+    category: dining_hack
+    status: ready
+    audience: late_dinner_travelers
+    format: "8s vertical"
+    hook: "Japan dinner can end earlier than you expect."
+    core_value: avoid missing dinner because of early last order
+    asmr_focus:
+      - noren curtain move
+      - plate set down
+      - wall clock tick
+    cta: "Save this dinner tip."
+
+  - id: konbini_copy_passport
+    category: convenience_store
+    status: ready
+    audience: practical_travelers
+    format: "8s vertical"
+    hook: "This machine in Japanese convenience stores does more than copy."
+    core_value: useful print-and-copy lifesaver for travelers
+    asmr_focus:
+      - touchscreen tap
+      - printer hum
+      - paper tray slide
+    cta: "Save this konbini tool."
+
+  - id: coin_locker_size_check
+    category: travel_logistics
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Not every station locker fits your suitcase."
+    core_value: avoid wasting time on the wrong locker size
+    asmr_focus:
+      - locker key beep
+      - suitcase wheel stop
+      - locker door slide
+    cta: "Save this locker tip."
+
+  - id: escalator_side_changes
+    category: culture_surprise
+    status: ready
+    audience: city_hopping_travelers
+    format: "8s vertical"
+    hook: "In Japan, even escalator etiquette changes by city."
+    core_value: fun regional rule that prevents awkward moments
+    asmr_focus:
+      - escalator hum
+      - shoe tap
+      - station ambience
+    cta: "Share this Japan surprise."
+
+  - id: hotel_pajamas_surprise
+    category: hotel_culture
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Your hotel in Japan might already have this."
+    core_value: reduce packing and arrival confusion
+    asmr_focus:
+      - fabric fold
+      - room door click
+      - soft room ambience
+    cta: "Save this hotel tip."
+
+  - id: station_exit_number_trap
+    category: transport_hack
+    status: ready
+    audience: overwhelmed_city_travelers
+    format: "8s vertical"
+    hook: "The right station exit can save 10 minutes."
+    core_value: avoid common station navigation mistakes
+    asmr_focus:
+      - station announcement
+      - footsteps
+      - escalator hum
+    cta: "Save this exit tip."
+
+  - id: shrine_purification_easy
+    category: etiquette
+    status: ready
+    audience: respectful_first_timers
+    format: "8s vertical"
+    hook: "What do you do with that water ladle in Japan?"
+    core_value: remove shrine etiquette anxiety
+    asmr_focus:
+      - water pour
+      - bamboo dipper tap
+      - quiet shrine ambience
+    cta: "Save this before visiting."
+
+  - id: late_night_cafe_refuge
+    category: city_survival
+    status: ready
+    audience: jetlagged_travelers
+    format: "8s vertical"
+    hook: "Too early for check-in and too tired to walk?"
+    core_value: find a calm fallback space in the city
+    asmr_focus:
+      - coffee cup set down
+      - chair slide
+      - low cafe ambience
+    cta: "Save this city backup."
+
+  - id: sento_towel_rules_fast
+    category: wellness_culture
+    status: ready
+    audience: anxious_first_timers
+    format: "8s vertical"
+    hook: "That small towel does not go in the bath."
+    core_value: prevent a common sento mistake
+    asmr_focus:
+      - towel fold
+      - water drip
+      - bath ambience
+    cta: "Save this before your first sento."
+
+  - id: cashless_but_cash_needed
+    category: payment_hack
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Japan is cashless... until suddenly it isn't."
+    core_value: help travelers avoid payment surprises
+    asmr_focus:
+      - card tap
+      - cash drawer sound
+      - register beep
+    cta: "Save this money tip."
+
+  - id: train_platform_number_confusion
+    category: transport_hack
+    status: ready
+    audience: first_time_japan_visitors
+    format: "8s vertical"
+    hook: "Platform number and train line are not the same thing."
+    core_value: reduce platform-side confusion fast
+    asmr_focus:
+      - platform chime
+      - announcement murmur
+      - footsteps
+    cta: "Save this train tip."
+
+  - id: convenience_store_trash_rules
+    category: etiquette
+    status: ready
+    audience: confused_travelers
+    format: "8s vertical"
+    hook: "Can you throw travel trash away at a konbini?"
+    core_value: clarify a common convenience-store etiquette question
+    asmr_focus:
+      - bottle drop
+      - bin flap
+      - store ambience
+    cta: "Save this etiquette tip."
+
+  - id: hotel_coin_laundry_easy
+    category: hotel_culture
+    status: ready
+    audience: longer_stay_travelers
+    format: "8s vertical"
+    hook: "Japan hotel laundry is easier than you think."
+    core_value: reduce packing pressure for longer trips
+    asmr_focus:
+      - washer button click
+      - zipper pull
+      - machine hum
+    cta: "Save this for longer trips."
+
+  - id: ordering_food_ticket_machine
+    category: food_etiquette
+    status: ready
+    audience: nervous_first_timers
+    format: "8s vertical"
+    hook: "This ramen shop wants you to pay before you sit."
+    core_value: explain ticket-machine ordering fast
+    asmr_focus:
+      - vending button click
+      - meal ticket print
+      - shop ambience
+    cta: "Save this before ordering."
